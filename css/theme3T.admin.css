@@ -1,3 +1,38 @@
 body{
-    background-color: lightgreen;
+    background-color: navajowhite;
+}
+
+.theme3T_general_form,
+.theme3T_sidebar_preview{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+}
+.theme3T_sidebar_preview{
+    width: 280px; background-color: #313131; padding: 20px; text-align: center; margin-right: 20px; border: 5px solid #111;
+}
+.theme3T_general_form{
+    border: 2px dashed #1f1f1f;
+    padding: 20px;
+}
+.theme3T_sidebar{
+    display: block; text-align: center;
+}
+h1.theme3T_username,
+h2.theme3T_description{
+    font-weight: 100;
+    color: #fff;
+}
+h1.theme3T_username{
+    font-size: 24px; margin: 0 0 10px;
+}
+h2.theme3T_description{
+    font-size: 13px; margin: 0 0 10px;
+}
+
+.image-container{
+    display: block; width:100%; overflow: hidden; text-align: center;
+}
+.profile-picture{
+    width: 122px; height: 122px; overflow: hidden; border-radius: 50%; margin: 20px auto; background-position: center center;background-repeat: no-repeat; background-size: cover;
 }
