@@ -59,11 +59,15 @@ function theme_3T_custom_settings(){
  *          Second Submenu( Theme Option )
     =================================================*/
 
-    register_setting('theme3T-set-register-options','post_formats','theme3T_set_register_postformats_saniCB');
+    register_setting('theme3T-set-register-options','post_formats');
+    register_setting('theme3T-set-register-options','custom_header');
+    register_setting('theme3T-set-register-options','custom_background');
 
     add_settings_section('theme3T-set-section-options','Theme Options','theme3T_set_options_sectionCB','theme_3T.com_theme');
 
-    add_settings_field('theme3T-set-field_options','Post Formats','theme3T_set_postformats_fieldCB','theme_3T.com_theme','theme3T-set-section-options');
+    add_settings_field('theme3T-set-field_post','Post Formats','theme3T_set_postformats_fieldCB','theme_3T.com_theme','theme3T-set-section-options');
+    add_settings_field('theme3T-set-field_header','Custom Headers','theme3T_set_header_fieldCB','theme_3T.com_theme','theme3T-set-section-options');
+    add_settings_field('theme3T-set-field_background','Custom Background','theme3T_set_background_fieldCB','theme_3T.com_theme','theme3T-set-section-options');
 
 
 }
@@ -135,10 +139,6 @@ function theme3T_set_gplus_fieldCB(){
  *      Second Submenu( Theme Option ) CB
  =================================================*/
 
-function theme3T_set_register_postformats_saniCB($input){
-    return $input;
-} //Post Formats Sanitize CB
-
 function theme3T_set_options_sectionCB(){
     echo 'Activate and Deactivate Your Theme Support options';
 } //Main Section CB
@@ -153,3 +153,15 @@ function theme3T_set_postformats_fieldCB(){
     }
     echo $output;
 } // post formats CB
+
+function theme3T_set_header_fieldCB(){
+    $options = get_option('custom_header');
+    $checked = ( @$options == 1 ? 'checked' : '' );
+    echo '<label><input type="checkbox" id="custom_header" name="custom_header" value="1" '.$checked.'/>Activate the Custom Header</label><br>';
+}
+
+function theme3T_set_background_fieldCB(){
+    $options = get_option('custom_background');
+    $checked = ( @$options == 1 ? 'checked' : '' );
+    echo '<label><input type="checkbox" id="custom_background" name="custom_background" value="1" '.$checked.'/>Activate the Custom Background</label><br>';
+}
