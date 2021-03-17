@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/theme3T.admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme3T.admin.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/enqueue.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/enqueue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/template/theme_admin_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/template/theme_admin_template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,47 +37,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="42">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.php">
+        <entry file="file://$PROJECT_DIR$/inc/enqueue.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="315">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inc/enqueue.php">
+        <entry file="file://$PROJECT_DIR$/inc/template/theme_admin_template.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
               <folding>
                 <element signature="e#7#130#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/theme3T.admin.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/template/theme_admin_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -120,11 +112,11 @@
         <option value="$PROJECT_DIR$/inc-functions/admin_menu/function_admin_submenu_page_CSSOption.php" />
         <option value="$PROJECT_DIR$/inc-functions/admin_sub_menu/function_admin_submenu_page_CSSOption.php" />
         <option value="$PROJECT_DIR$/inc-functions/admin_menu/function_admin_menu_page.php" />
-        <option value="$PROJECT_DIR$/inc/template/theme_admin_template.php" />
         <option value="$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/css/theme3T.admin.css" />
         <option value="$PROJECT_DIR$/inc/enqueue.php" />
+        <option value="$PROJECT_DIR$/css/theme3T.admin.css" />
+        <option value="$PROJECT_DIR$/inc/template/theme_admin_template.php" />
       </list>
     </option>
   </component>
@@ -153,6 +145,17 @@
               <item name="3T.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="3T.com" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3T.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3T.com" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3T.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3T.com" type="462c0819:PsiDirectoryNode" />
+              <item name="inc" type="462c0819:PsiDirectoryNode" />
+              <item name="admin_menu" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,6 +216,7 @@
       <workItem from="1615802234494" duration="1642000" />
       <workItem from="1615822353047" duration="12390000" />
       <workItem from="1615912580926" duration="8226000" />
+      <workItem from="1615962588848" duration="2474000" />
     </task>
     <task id="LOCAL-00001" summary="/* Initial State of my Code */">
       <created>1615823992450</created>
@@ -270,11 +274,18 @@
       <option name="project" value="LOCAL" />
       <updated>1615924950330</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Initial State of my code(Test)">
+      <created>1615962726732</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615962726733</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65865000" />
+    <option name="totallyTimeSpent" value="68339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,7 +300,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16868381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1709531" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -377,9 +388,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="/* Initial State of my Code */" />
     <MESSAGE value="Initial State of my code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial State of my code" />
+    <MESSAGE value="Initial State of my code(Test)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial State of my code(Test)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../wp-includes/update.php">
@@ -420,9 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_ThemeOption.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -431,63 +442,64 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc-functions/admin_menu/function_admin_submenu_page_CSSOption.php" />
-    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_CSSOption.php">
+    <entry file="file://$PROJECT_DIR$/css/theme3T.admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/template/theme_admin_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#7#130#0#PHP" expanded="true" />
-            <element signature="e#2210#2363#0#PHP" />
-            <element signature="n#theme3T_set_sectionCB#0;n#!!top" />
-            <element signature="n#theme3T_set_twitter_fieldCB#0;n#!!top" />
-            <element signature="n#theme3T_set_facebook_fieldCB#0;n#!!top" />
-            <element signature="n#theme3T_set_gplus_fieldCB#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme3T.admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/enqueue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="64" lean-forward="true" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+        <state relative-caret-position="315">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_PostFormats.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_ThemeOption.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_GeneralOption.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_CSSOption.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="63" column="16" lean-forward="true" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding>
             <element signature="e#7#130#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template/theme_admin_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
