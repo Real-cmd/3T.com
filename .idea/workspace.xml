@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9d38d4f-abf7-4067-9c4e-e2925c55729d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inc/custom_post_type.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/template/theme_admin_contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/theme_support.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/theme_support.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +36,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inc/enqueue.php">
+        <entry file="file://$PROJECT_DIR$/inc/custom_post_type.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="341">
+              <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding>
+                <element signature="e#6#129#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,32 +50,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="163" column="44" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="44" />
+            <state relative-caret-position="104">
+              <caret line="79" column="67" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="67" />
               <folding>
                 <element signature="e#7#130#0#PHP" expanded="true" />
-                <element signature="e#3101#3217#0#PHP" />
-                <element signature="e#3218#3353#0#PHP" />
-                <element signature="e#3380#3454#0#PHP" />
-                <element signature="e#3507#3585#0#PHP" />
-                <element signature="e#4365#4899#0#PHP" />
-                <element signature="e#3922#4244#0#PHP" />
-                <element signature="e#4261#4534#0#PHP" />
-                <element signature="e#4553#4822#0#PHP" />
-                <element signature="e#2450#2603#0#PHP" />
-                <element signature="e#4015#4222#0#PHP" />
-                <element signature="e#4238#4429#0#PHP" />
-                <element signature="e#6703#6809#0#PHP" />
+                <element signature="n#theme3T_set_postformats_fieldCB#0;n#!!top" />
+                <element signature="n#theme3T_set_background_fieldCB#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/theme3T.admin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -78,17 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/theme_support.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/template/theme_option_admin_template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            <state>
+              <caret selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -135,13 +112,15 @@
         <option value="$PROJECT_DIR$/css/theme3T.admin.css" />
         <option value="$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_themeOption.php" />
         <option value="$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_CSSOption.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/inc/enqueue.php" />
         <option value="$PROJECT_DIR$/js/theme3T.admin.js" />
         <option value="$PROJECT_DIR$/inc/template/theme_option_admin_template.php" />
         <option value="$PROJECT_DIR$/inc/template/theme_admin_template.php" />
-        <option value="$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php" />
         <option value="$PROJECT_DIR$/inc/theme_support.php" />
+        <option value="$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php" />
+        <option value="$PROJECT_DIR$/inc/template/theme_admin_contact.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/inc/custom_post_type.php" />
       </list>
     </option>
   </component>
@@ -159,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,25 +159,12 @@
             <path>
               <item name="3T.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="3T.com" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-              <item name="admin_menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3T.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3T.com" type="462c0819:PsiDirectoryNode" />
-              <item name="inc" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3T.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3T.com" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +219,8 @@
       <workItem from="1615802234494" duration="1642000" />
       <workItem from="1615822353047" duration="12390000" />
       <workItem from="1615912580926" duration="8226000" />
-      <workItem from="1615962588848" duration="22404000" />
+      <workItem from="1615962588848" duration="22543000" />
+      <workItem from="1616047027899" duration="3817000" />
     </task>
     <task id="LOCAL-00001" summary="/* Initial State of my Code */">
       <created>1615823992450</created>
@@ -331,11 +299,18 @@
       <option name="project" value="LOCAL" />
       <updated>1616004022535</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial State of my code(Test)">
+      <created>1616005674527</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616005674527</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88269000" />
+    <option name="totallyTimeSpent" value="92225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,12 +452,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_GeneralOption.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_PostFormats.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_GeneralOption.php" />
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_PostFormats.php" />
     <entry file="file://$PROJECT_DIR$/css/theme3T.admin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -490,27 +461,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_themeOption.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_CSSOption.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/theme3T.admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_themeOption.php" />
+    <entry file="file://$PROJECT_DIR$/inc/admin_sub_menu/function_admin_submenu_page_CSSOption.php" />
     <entry file="file://$PROJECT_DIR$/inc/template/theme_admin_template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -521,53 +473,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/js/theme3T.admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/template/theme_option_admin_template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="163" column="44" selection-start-line="163" selection-start-column="27" selection-end-line="163" selection-end-column="44" />
-          <folding>
-            <element signature="e#7#130#0#PHP" expanded="true" />
-            <element signature="e#3101#3217#0#PHP" />
-            <element signature="e#3218#3353#0#PHP" />
-            <element signature="e#3380#3454#0#PHP" />
-            <element signature="e#3507#3585#0#PHP" />
-            <element signature="e#4365#4899#0#PHP" />
-            <element signature="e#3922#4244#0#PHP" />
-            <element signature="e#4261#4534#0#PHP" />
-            <element signature="e#4553#4822#0#PHP" />
-            <element signature="e#2450#2603#0#PHP" />
-            <element signature="e#4015#4222#0#PHP" />
-            <element signature="e#4238#4429#0#PHP" />
-            <element signature="e#6703#6809#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/theme_support.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        <state relative-caret-position="449">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/enqueue.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="n#theme3T_load_admin_scripts#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template/theme_option_admin_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/template/theme_admin_contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/theme_support.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/admin_menu/function_admin_menu_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="79" column="67" selection-start-line="79" selection-start-column="53" selection-end-line="79" selection-end-column="67" />
+          <folding>
+            <element signature="e#7#130#0#PHP" expanded="true" />
+            <element signature="n#theme3T_set_postformats_fieldCB#0;n#!!top" />
+            <element signature="n#theme3T_set_background_fieldCB#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/custom_post_type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#6#129#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

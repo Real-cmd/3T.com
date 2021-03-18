@@ -20,6 +20,10 @@ function theme_add_admin_page(){
     // add_submenu_page('Parent Slug','Page Title','Menu Title','Capability','Menu Slug','CB Functions');
     add_submenu_page('theme_3T.com','Theme Custom Options','Theme Option','manage_options','theme_3T.com_theme','theme_admin_Custom_themeCB');
 
+    /*====for Custom contact form Submenu Page====*/
+    // add_submenu_page('Parent Slug','Page Title','Menu Title','Capability','Menu Slug','CB Functions');
+    add_submenu_page('theme_3T.com','Custom Contact Form','Contact Form','manage_options','theme_3T.com_contact','theme_admin_Custom_contactCB');
+
     /*====for Custom CSS Submenu Page====*/
     // add_submenu_page('Parent Slug','Page Title','Menu Title','Capability','Menu Slug','CB Functions');
     add_submenu_page('theme_3T.com','Theme Css Options','Custom CSS','manage_options','theme_3T.com_css','theme_admin_Custom_cssCB');
@@ -69,8 +73,32 @@ function theme_3T_custom_settings(){
     add_settings_field('theme3T-set-field_header','Custom Headers','theme3T_set_header_fieldCB','theme_3T.com_theme','theme3T-set-section-options');
     add_settings_field('theme3T-set-field_background','Custom Background','theme3T_set_background_fieldCB','theme_3T.com_theme','theme3T-set-section-options');
 
+    /*================================================
+*          Third Submenu( Contact Form Option )
+=================================================*/
+
+    register_setting('theme3T-set-register-contact','active_contact');
+
+    add_settings_section('theme3T-set-section-contact','Contact Form','theme3T_set_contact_sectionCB','theme_3T.com_contact');
+
+    add_settings_field('theme3T-set-field_contact','Activate Contact Form','theme3T_set_contactform_fieldCB','theme_3T.com_contact','theme3T-set-section-contact');
+
 
 }
+
+function theme_admin_Custom_contactCB(){
+    require_once (get_template_directory() . '/inc/template/theme_admin_contact.php');
+}
+
+function theme3T_set_contact_sectionCB(){
+    echo 'Activate and Deactivate Custom Contact Form';
+}
+function theme3T_set_contactform_fieldCB(){
+    $options = get_option('active_contact');
+    $checked = ( @$options == 1 ? 'checked' : '' );
+    echo '<label><input type="checkbox" id="active_contact" name="active_contact" value="1" '.$checked.'/></label><br>';
+}
+
 /*================================================
  *      First Submenu( Side Bar Option )
  =================================================*/
